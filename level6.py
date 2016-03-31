@@ -16,4 +16,4 @@ for i in range(len(archive.infolist())):
         nextNumber = nextNumber[0]
         textFile = archive.read(nextNumber + '.txt')
 
-#solution: oxygen
+#solution: http://www.pythonchallenge.com/pc/def/oxygen.html

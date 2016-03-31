@@ -6,3 +6,5 @@ pw = 'BZh91AY&SY\x94$|\x0e\x00\x00\x00\x81\x00\x03$ \x00!\x9ah3M\x13<]\xc9\x14\x
 
 print bz2.decompress(un)
 print bz2.decompress(pw)
+
+#solution: http://www.pythonchallenge.com/pc/return/good.html

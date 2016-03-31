@@ -41,3 +41,6 @@ for i in range(len(second)/2 - 1):
 
 image.show()
 del canvas
+
+#1. solution: http://www.pythonchallenge.com/pc/return/cow.html
+#2. solution: http://www.pythonchallenge.com/pc/return/bull.html

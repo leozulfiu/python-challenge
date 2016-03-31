@@ -23,3 +23,5 @@ print ''.join(string)
 solution = [105, 110, 116, 101, 103, 114, 105, 116, 121]
 for x in solution:
     print "%c" % (str(unichr(x))),
+
+#solution: http://www.pythonchallenge.com/pc/def/integrity.html

@@ -1248,4 +1248,4 @@ try:
 except urllib2.HTTPError:
     print "Wrong Solution!"
 
-
+#solution: http://www.pythonchallenge.com/pc/def/equality.html

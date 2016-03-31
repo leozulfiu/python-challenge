@@ -49,3 +49,5 @@ for y in range(300):
             url = 'http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=' + nextNumber
     except urllib2.HTTPError:
         print "Wrong Solution!"
+
+#solution: http://www.pythonchallenge.com/pc/def/peak.html

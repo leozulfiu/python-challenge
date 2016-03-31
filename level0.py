@@ -15,4 +15,4 @@ try:
 except urllib2.HTTPError:
     print "Wrong Solution!"
 
-
+#solution: http://www.pythonchallenge.com/pc/def/274877906944.html

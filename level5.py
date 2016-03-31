@@ -12,4 +12,4 @@ for row in serializedObject:
             print(column[0]),
     print "\n",
 
-solution = "channel"
+#solution: http://www.pythonchallenge.com/pc/def/channel.html
