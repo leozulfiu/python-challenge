@@ -1,18 +1,34 @@
 
 def get_next_number(number):
     quantity = 0
-    value = 0
-    for digit in range(len(str(number))):
-        print "a"
-    return number+1
+    output = ""
+    number_string = str(number)
+    current_number = number_string[0]
+    index = 0
 
+    while True:
+        if index == len(number_string):
+            output += str(quantity) + str(current_number)
+            break
+        digit = number_string[index]
+        if digit == current_number or index == len(number_string):
+            quantity += 1
+        else:
+            output += str(quantity) + str(current_number)
+            quantity = 1
+            current_number = digit
+        index += 1
+    return output
 
-get_next_number(3333221111)
 startValue = 1
-
 currentNumber = startValue
 numbers = [startValue]
 
 for i in range(30):
     currentNumber = get_next_number(currentNumber)
     numbers.append(currentNumber)
+
+print len(numbers[30])
+
+#solution: 5808
+#not final solution...
