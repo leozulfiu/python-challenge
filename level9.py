@@ -44,3 +44,4 @@ del canvas
 
 #1. solution: http://www.pythonchallenge.com/pc/return/cow.html
 #2. solution: http://www.pythonchallenge.com/pc/return/bull.html
+#Credentials: huge | file

@@ -30,5 +30,5 @@ for i in range(30):
 
 print len(numbers[30])
 
-#solution: 5808
-#not final solution...
+#http://www.pythonchallenge.com/pc/return/5808.html
+#Credentials: huge | file
